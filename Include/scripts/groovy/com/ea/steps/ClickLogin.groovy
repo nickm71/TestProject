@@ -46,18 +46,23 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+import org.sikuli.script.*;
+
 
 class LoginSteps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+	def s
 	@Given("I navigate to the login page")
 	def I_Navigate_To_Login_Page() {
+		s = new Screen()
+		//Pattern dialog = new Pattern ("C:\\Users\\Nick\\Desktop\\Capture.PNG")
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://secure.hmce.gov.uk/is2/')
-		
 		WebUI.click(findTestObject('Object Repository/Page_Welcome to Intrastat/input'))
-		
 		WebUI.click(findTestObject('Object Repository/Page_Login Page/input_Password_Quit'))
+
+
 	}
 }
