@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 73.0.3683.86,,2019-03-26 20:56:10,2019-03-26 20:56:20,10.076s,PASSED
+,,,,,,
+Test Cases/Login_TC1,Chrome 73.0.3683.86,,2019-03-26 20:56:10,2019-03-26 20:56:20,9.380s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-26 20:56:11,2019-03-26 20:56:17,6.037s,PASSED
+"navigateToUrl(""https://secure.hmce.gov.uk/is2/"")",Chrome 73.0.3683.86,,2019-03-26 20:56:17,2019-03-26 20:56:18,1.162s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome to Intrastat/input""))",Chrome 73.0.3683.86,,2019-03-26 20:56:18,2019-03-26 20:56:19,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/input_Password_Quit""))",Chrome 73.0.3683.86,,2019-03-26 20:56:19,2019-03-26 20:56:19,0.096s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-26 20:56:19,2019-03-26 20:56:20,0.654s,PASSED

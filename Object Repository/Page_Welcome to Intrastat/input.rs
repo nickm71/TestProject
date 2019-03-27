@@ -6,6 +6,10 @@
    <elementGuidId>73f8f8de-382a-4f7e-9b3a-71a4269cb1fc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@value='Login Page']</value>
       </entry>

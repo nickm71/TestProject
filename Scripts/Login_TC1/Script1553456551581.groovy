@@ -17,9 +17,3 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://secure.hmce.gov.uk/is2/')
 
-WebUI.click(findTestObject('Object Repository/Page_Welcome to Intrastat/input'))
-
-WebUI.click(findTestObject('Object Repository/Page_Login Page/input_Password_Quit'))
-
-WebUI.closeBrowser()
-

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1" time="7" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite1" tests="1" failures="0" errors="0" time="7" timestamp="2019-03-24 21:40:22" hostname="Nick - Nick-HP" id="Test Suites/Test Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nick\\git\\TestProject\\Reports\\Test Suite1\\20190324_214018"/>
+         <property name="logFiles" value="C:\\Users\\Nick\\git\\TestProject\\Reports\\Test Suite1\\20190324_214018\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nick - Nick-HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="ccfc0a51f681d952751dbebfc6ed6600"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_TC1" classname="Test Cases/Login_TC1" status="PASSED">
+         <system-out><![CDATA[2019-03-24 21:40:23 - [TEST_CASE][PASSED] - Test Cases/Login_TC1: Test Cases/Login_TC1
+
+2019-03-24 21:40:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-24 21:40:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-24 21:40:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-24 21:40:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-24 21:40:28 - [TEST_STEP][PASSED] - navigateToUrl("https://secure.hmce.gov.uk/is2/"): Navigate to 'https://secure.hmce.gov.uk/is2/' successfully
+
+2019-03-24 21:40:28 - [MESSAGE][PASSED] - Navigate to 'https://secure.hmce.gov.uk/is2/' successfully
+
+2019-03-24 21:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome to Intrastat/input")): Object: 'Object Repository/Page_Welcome to Intrastat/input' is clicked on
+
+2019-03-24 21:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome to Intrastat/input' is clicked on
+
+2019-03-24 21:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/input_Password_Quit")): Object: 'Object Repository/Page_Login Page/input_Password_Quit' is clicked on
+
+2019-03-24 21:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/input_Password_Quit' is clicked on
+
+2019-03-24 21:40:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-24 21:40:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-24 21:40:22 - [TEST_SUITE][PASSED] - Test Suite1: Test Cases/Login_TC1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
