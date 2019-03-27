@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 73.0.3683.86,,2019-03-27 20:06:43,2019-03-27 20:06:50,6.806s,PASSED
+,,,,,,
+Test Cases/Login_TC1,Chrome 73.0.3683.86,,2019-03-27 20:06:43,2019-03-27 20:06:49,5.567s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 20:06:44,2019-03-27 20:06:48,4.386s,PASSED
+"navigateToUrl(""https://secure.hmce.gov.uk/is2/"")",Chrome 73.0.3683.86,,2019-03-27 20:06:48,2019-03-27 20:06:49,0.668s,PASSED

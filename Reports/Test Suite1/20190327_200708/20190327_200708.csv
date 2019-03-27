@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,IE 11,,2019-03-27 20:07:22,2019-03-27 20:07:27,5.307s,PASSED
+,,,,,,
+Test Cases/Login_TC1,IE 11,,2019-03-27 20:07:22,2019-03-27 20:07:26,4.253s,PASSED
+"openBrowser("""")",IE 11,,2019-03-27 20:07:22,2019-03-27 20:07:26,3.263s,PASSED
+"navigateToUrl(""https://secure.hmce.gov.uk/is2/"")",IE 11,,2019-03-27 20:07:26,2019-03-27 20:07:26,0.466s,PASSED

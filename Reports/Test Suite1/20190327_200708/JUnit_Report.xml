@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1" time="5" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite1" tests="1" failures="0" errors="0" time="5" timestamp="2019-03-27 20:07:22" hostname="Nick - Nick-HP" id="Test Suites/Test Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nick\\git\\TestProject\\Reports\\Test Suite1\\20190327_200708"/>
+         <property name="logFiles" value="C:\\Users\\Nick\\git\\TestProject\\Reports\\Test Suite1\\20190327_200708\\execution0.log, C:\\Users\\Nick\\git\\TestProject\\Reports\\Test Suite1\\20190327_200708\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nick - Nick-HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="5c94525a-c878-4f7e-8c91-a80f1a267e70"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_TC1" classname="Test Cases/Login_TC1" status="PASSED">
+         <system-out><![CDATA[2019-03-27 20:07:22 - [TEST_CASE][PASSED] - Test Cases/Login_TC1: Test Cases/Login_TC1
+
+2019-03-27 20:07:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-27 20:07:23 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-03-27 20:07:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-27 20:07:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-27 20:07:26 - [TEST_STEP][PASSED] - navigateToUrl("https://secure.hmce.gov.uk/is2/"): Navigate to 'https://secure.hmce.gov.uk/is2/' successfully
+
+2019-03-27 20:07:26 - [MESSAGE][PASSED] - Navigate to 'https://secure.hmce.gov.uk/is2/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-27 20:07:22 - [TEST_SUITE][PASSED] - Test Suite1: Test Cases/Login_TC1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
